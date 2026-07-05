@@ -233,7 +233,7 @@ The author and contributors do not condone the misuse of this tool. Users are so
 
 ## License
 
-MIT -- Use responsibly.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) Use responsibly.
 
 ---
 
