@@ -1,9 +1,28 @@
 
 # AIZEN -- Offensive Security Research Framework
 
+<img width="652" height="661" alt="Screenshot 2026-07-06 055532" src="https://github.com/user-attachments/assets/771699cc-5bcd-4c22-ba2a-14bc398146d6" />
+*.\pdfgen.exe*
+
 **Author:** Nasrif30  
 **Language:** Go  
 **Platform:** Windows  
+
+---
+
+## What is AIZEN?
+
+AIZEN is a two-component offensive security research framework:
+
+1. PDFGEN -- Generates a weaponized PDF that executes JavaScript when opened.
+2. AIZEN Implant -- A stealthy C2 payload that establishes persistence, injects into processes, and communicates over HTTP/DNS/ICMP.
+
+It is designed to help researchers understand:
+- PDF exploit delivery mechanics
+- JavaScript-based droppers and sandbox evasion
+- Process injection and memory-only execution
+- C2 communication and tunneling
+- Steganography and obfuscation techniques
 
 ---
 
@@ -23,21 +42,6 @@ The author, Nasrif30, provides this software for educational and research purpos
 
 ---
 
-## What is AIZEN?
-
-AIZEN is a two-component offensive security research framework:
-
-1. PDFGEN -- Generates a weaponized PDF that executes JavaScript when opened.
-2. AIZEN Implant -- A stealthy C2 payload that establishes persistence, injects into processes, and communicates over HTTP/DNS/ICMP.
-
-It is designed to help researchers understand:
-- PDF exploit delivery mechanics
-- JavaScript-based droppers and sandbox evasion
-- Process injection and memory-only execution
-- C2 communication and tunneling
-- Steganography and obfuscation techniques
-
----
 
 ## The Name -- AIZEN
 
@@ -61,7 +65,8 @@ It is designed to help researchers understand:
 
 ## Architecture Overview
 
-![Full Architecture](images/architecture.png)
+<img width="5198" height="8192" alt="aizen full architecture diagram Workflow-2026-07-05-220818" src="https://github.com/user-attachments/assets/212b0037-b56b-453d-a208-262aad97b2cd" />
+
 
 *Diagram showing the complete AIZEN framework including PDFGEN, AIZEN Implant, and C2 Infrastructure.*
 
@@ -69,7 +74,8 @@ It is designed to help researchers understand:
 
 ## Attack Chain
 
-![Attack Chain](images/attack_chain.png)
+<img width="5512" height="8192" alt="ATTACK CHAIN Workflow-2026-07-05-221132" src="https://github.com/user-attachments/assets/7fe33b58-0715-4a11-944e-fe92928e560b" />
+
 
 *Step-by-step flow from PDF generation to implant execution and C2 communication.*
 
@@ -233,5 +239,5 @@ MIT -- Use responsibly.
 ## Author
 
 Nasrif30 -- https://github.com/Nasrif30/AIZEN
-```
+
 
